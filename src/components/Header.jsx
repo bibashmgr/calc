@@ -1,7 +1,7 @@
 import React from 'react';
 
-// css
-import '../styles/Header.css';
+// scss
+import '../styles/Header.scss';
 
 const header = () => {
     return (
