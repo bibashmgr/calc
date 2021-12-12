@@ -9,12 +9,10 @@ import Keypad from './Keypad';
 
 const Main = () => {
     return (
-        <section className='main-container'>
-            <div className='calc-container'>
-                <Screen />
-                <Keypad />
-            </div>
-        </section>
+        <div className='main-container'>
+            <Screen />
+            <Keypad />
+        </div>
     )
 }
 
