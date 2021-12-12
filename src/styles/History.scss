@@ -1,0 +1,10 @@
+.history-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border-left: 1px solid #ffffff;
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+}
