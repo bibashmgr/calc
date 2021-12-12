@@ -1,3 +1,6 @@
+import React from 'react';
+import { useState } from 'react';
+
 // scss
 import './App.scss';
 
@@ -6,9 +9,12 @@ import Main from './components/Main';
 import History from './components/History';
 
 function App() {
+
+  const [value, setValue] = useState();
+
   return (
         <section className='section-container'>
-          <Main />
+          <Main value={value} setValue={setValue} />
           <History />
         </section>
   );

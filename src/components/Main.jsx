@@ -7,11 +7,11 @@ import '../styles/Main.scss';
 import Screen from './Screen';
 import Keypad from './Keypad';
 
-const Main = () => {
+const Main = ({value, setValue}) => {
     return (
         <section className='main-container'>
             <Screen />
-            <Keypad />
+            <Keypad value={value} setValue={setValue} />
         </section>
     )
 }
