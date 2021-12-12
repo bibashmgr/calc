@@ -5,6 +5,8 @@
     grid-template-rows: 1fr 1fr;
     padding-right: 5px;
     border-right: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
     .history {
         align-self: center;
         justify-self: flex-end;
@@ -20,6 +22,6 @@
         font-weight: 600;
     }
     @media screen and (max-width: 768px) {
-        border: none;
+        // border: none;
     }
 }
