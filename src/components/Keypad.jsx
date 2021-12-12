@@ -4,7 +4,7 @@ import React from 'react';
 import '../styles/Keypad.scss';
 
 // data:characters
-import {characters} from './characters';
+import {characters} from '../utils/characters';
 
 const Keypad = () => {
     return (
