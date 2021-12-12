@@ -1,14 +1,16 @@
-// css
-import './App.css';
+// scss
+import './App.scss';
 
 // components
-import Section from './components/Section';
+import Main from './components/Main';
+import History from './components/History';
 
 function App() {
   return (
-    <>
-        <Section />
-    </>
+        <section className='section-container'>
+          <Main />
+          <History />
+        </section>
   );
 }
 

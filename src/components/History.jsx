@@ -5,9 +5,9 @@ import '../styles/History.scss';
 
 const History = () => {
     return (
-        <div className='history-container'>
+        <section className='history-container'>
             This is History.
-        </div>
+        </section>
     )
 }
 
