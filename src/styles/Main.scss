@@ -7,4 +7,50 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    .screen-container {
+        width: 100%;
+        height: 30vh;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        padding-right: 5px;
+        border-right: 1px solid #ffffff;
+        border-left: 1px solid #ffffff;
+        border-top: 1px solid #ffffff;
+        .history {
+            align-self: center;
+            justify-self: flex-end;
+            opacity: 0.75;
+            font-size: 1rem;
+            font-weight: 400;
+        }
+        .output {
+            opacity: 1;
+            align-self: center;
+            justify-self: flex-end;
+            font-size: 3rem;
+            font-weight: 600;
+        }
+        @media screen and (max-width: 768px) {
+            // border: none;
+        }
+    }
+    .keypad-container {
+        width: 100%;
+        height: 70vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .keypad-container>input {
+        background-color: #2b2b2b;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #ffffff;
+        font-size: 1.25rem;
+        cursor: pointer;
+        &:hover {
+            background-color: #313131;
+        }
+    }
 }
