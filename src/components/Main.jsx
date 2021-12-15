@@ -18,6 +18,7 @@ const Main = () => {
     
     const handleAllClear = () => {
         result = '';
+        history = '';
         setOutput(result);
     }
     
